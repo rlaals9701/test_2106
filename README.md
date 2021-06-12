@@ -14,12 +14,12 @@
 >
 > Teg : 태그 - 기술적
 
-> 문법
+> 문법(Syntax)
 > 
 > <>로 감싸줌
 > 
 > 소문자 사용
-
+>
 > 시작태그<>와 종료태그</>set 구성
 ```
 <tegname>contents</tagname>
