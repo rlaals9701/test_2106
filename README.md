@@ -1,8 +1,8 @@
 # HTML CSS JS 기초
 
+##
 
-##> HTML : 하이퍼 텍스트 마크 업 언어-마크 업 언어
-
+> HTML:Hyper Text Markup Language
 > 웹 페이지의 구조를 표시
 > 
 > 웹페이지의 콘텐츠를 표시
