@@ -76,6 +76,81 @@
 5. 웸 문서의 제목을 표시 요소(타이틀 태그영역)
 6. 웹 문서의 콘텐츠 요소들이 담기는 영역 요소
 
+### 단락 태그
+
+> p(paragraph) : 단락을 표시
+> 단락과 단락사이를 구분하는 수평선
+```
+<hr> - horizontal rule
+```
+> 단락을 구분하지 않고 줄 바꿈
+```
+<br> - break(뜻)
+```
+### 목록 태그
+
+> 순서없는 목록 ul(unordered list) >>숫자 생기는거 싫으면 css에서 수정가능
+> 순서있는 목록 ol(Ordered List)
+> 목록 항목 li (List Item)
+
+```
+<ul>
+  <li>html</li>
+  <li>html</li>
+</ul>
+  
+ <ol>
+  <li>html</li>
+  <li>html</li>
+</ol> 
+```
+> 포함관계(nested)로 구성된 목록 - 코딩할때 밖에서 안쪽으로방향 순서로
+-HTML
+  -HTML4
+  -HTML5
+-css
+  -css2
+  -css3
+  ```
+  <ul>
+    <li>
+      html
+      <ul>
+        <li>html4</li>
+        <li>html5</li>
+      </ul>
+    </li>
+    <li>
+      css
+      <ul>
+        <li>css2</li>
+        <li>css3</li>
+      </ul>
+    </li>
+  </ul>
+  ```
+
+> 설명목록(descriptin List) - dl
+
+```
+<dl>
+  <dt>html</dt> (dt: description title)
+  <dd>표준 마크업 언어</dd> (dd: description data)
+</dl>
+```
+
+> 하이퍼링크 a(anchor)
+> 
+> attribute(속성) : href(hypertext reference)>> 어디로 이동할지 : 연결되는 웹 문서의 url
+```
+<a href="http://www.naver.com">네이버로 이동</a>
+```
+
+
+
+
+
+
 
 
 
