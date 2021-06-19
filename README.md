@@ -177,4 +177,27 @@ https://www.tablesgenerator.com/html_tables
 <img src="imge.jpg" alt="대체 텍스트"> 
 ```
 
+### video element
+> 비디오 및 오디오 콘텐츠는 용량이 크기 때문에 서버에 저장해 콘텐츠를 제공하면 많은 트래픽이 발생할 수 있음
+>
+> 트래픽 과부하를 해결하기 위해 유튜브 서비스를 사용하기도 함
+>
+>attribute
+>
+>controls : 컨트롤 버튼 표시
+>
+>autoplay : wkehdwotod(* muted와 같이 사용해야 함)
+>
+>muted : 음소거
+>
+>loop : 반복재생
+```
+<video width="900" height="400" controls autoplay muted loop>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+```
 
+### youtube
+
+>비디오 콘텐츠 제공시 서버의 트래픽과부하를 해결할 수 있는 방법중 하나
+>
