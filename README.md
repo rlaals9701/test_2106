@@ -168,10 +168,11 @@ https://www.tablesgenerator.com/html_tables
 
 ### image element
 > tag : img
+> 
 > attribute : src(image 위치, 파일명), alt(대체 텍스트)
 `: backtick
 ```
 <img src="imge.jpg" alt="대체 텍스트"> 
-
+```
 
 
