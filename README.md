@@ -170,7 +170,9 @@ https://www.tablesgenerator.com/html_tables
 > tag : img
 > 
 > attribute : src(image 위치, 파일명), alt(대체 텍스트)
-`: backtick
+
+
+` : backtick
 ```
 <img src="imge.jpg" alt="대체 텍스트"> 
 ```
