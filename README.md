@@ -155,7 +155,12 @@
 <h2 id="t1">넣고싶은 위치</h2>
 ```
 
-
+### table element
+>기본 사용 태그 : table, thead, tbody , tr, td, th
+>열제목 : therd(table head) th(table heading)
+>표 내용 :tbody,td(table data)
+>행 : tr (table row) 아랫줄 
+https://www.tablesgenerator.com/html_tables
 
 
 
