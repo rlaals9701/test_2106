@@ -247,3 +247,57 @@ https://freebiesbug.com/psd-freebies/website-template/
 >
 > inline element는 위,아래 여백을 적용할 수 없음
 >
+
+###parent element(부모요소), child element(자식요소)
+
+>포함관계에서 포함하는 요소가 부모요소, 포함되는 요소는 자식요소
+>
+>직계 포함관계에서만 부모요소, 자식요소
+>
+>직계가 아닌 포함관계에서는 조상요소(ancestor),자손요소(decendant)
+
+## CSS
+
+### CSS 기본 개념
+
+>선택자는 스타일을 지정할 HTML 요소를 가리 킵니다.
+>
+>선언 블록에는 세미콜론으로 구분 된 하나 이상의 선언이 포함됩니다.
+>
+>각 선언에는 콜론으로 구분 된 CSS 속성(PROPERTY) 이름과 값(VALUE)이 포함됩니다.
+>
+>여러 CSS 선언은 세미콜론으로 구분하고 선언 블록은 중괄호로 묶습니다.
+
+### id,class
+
+>html element에 특정 이름을 사용할 때 id, class attribute를 사용해서 이름을 붙여줄수 ㅇ
+>
+>id는 동일한 이름이 사용된 html element가 여러개이면 논리적 오류가 발생
+>
+>id는 html 문서 내에서 고유해야함
+>
+>class는 동일한 이름이 여러개의 element에 사용되어서 공통 디자인 요소나 공통 기능을 적용ㅇ
+>
+>id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용>백엔드 개발시 사용
+>
+>class는 주로css스타일 적용, javascript 인터렉션 적용시 사용>프론트엔드개발시 주로 사용
+
+### css작성방법
+
+>external css : 파일분리
+>
+>internal css : 같은 html 문서내에 <head> 태그 영역에 <style>태그를 사용하여 입력
+>
+>inline css : 시작태그에 style attribute를 사용해서 입력> javascript에서 css제어시 사용
+
+###naming할 때 표기방식
+
+>id, class naming, 변수/ 함수 / 클래스 namine, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
+>표기방식을 사용하는 이유
+> -naming할때 두단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
+> -단어의 시작부분에 첫글자를 대문자로 변경, 특수기호를 사용
+>표기방식 종류  
+>snake case : gnb_depth1  뱀방식> 파일/폴더
+>kebab case : gnb-depth1  하이픈으로 연속연결> ID/CLASS
+>camel case : gnbDepth1  낙타>JAVASCRIPT의 변수/함수
+>pascal case : GnbDepth1 >javascript의 클래스
