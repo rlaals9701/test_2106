@@ -371,9 +371,9 @@ color:rgba(42,189,81,0.2);
 
 ### box model
 > 구성요소
-> -width/height : 너비/높이
-> -padding : 안쪽 여백
-> -border : 테두리
-> -margin : 바깥 여백
+> - width/height : 너비/높이
+> - padding : 안쪽 여백
+> - border : 테두리
+> - margin : 바깥 여백
 >
 >
