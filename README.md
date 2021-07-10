@@ -248,7 +248,7 @@ https://freebiesbug.com/psd-freebies/website-template/
 > inline element는 위,아래 여백을 적용할 수 없음
 >
 
-###parent element(부모요소), child element(자식요소)
+### parent element(부모요소), child element(자식요소)
 
 >포함관계에서 포함하는 요소가 부모요소, 포함되는 요소는 자식요소
 >
@@ -294,16 +294,21 @@ https://freebiesbug.com/psd-freebies/website-template/
 >
 >inline css : 시작태그에 style attribute를 사용해서 입력> javascript에서 css제어시 사용
 
-###naming할 때 표기방식
+### naming할 때 표기방식
 
 >id, class naming, 변수/ 함수 / 클래스 namine, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
 >표기방식을 사용하는 이유
 > - naming할때 두단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
 > - 단어의 시작부분에 첫글자를 대문자로 변경, 특수기호를 사용
->표기방식 종류  
+>
+>표기방식 종류
+> 
 >snake case : gnb_depth1  뱀방식> 파일/폴더
+>
 >kebab case : gnb-depth1  하이픈으로 연속연결> ID/CLASS
+>
 >camel case : gnbDepth1  낙타>JAVASCRIPT의 변수/함수
+>
 >pascal case : GnbDepth1 >javascript의 클래스
 >
 
