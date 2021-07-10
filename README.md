@@ -315,7 +315,7 @@ https://freebiesbug.com/psd-freebies/website-template/
 
 ### web color
 > color mode
->-가산혼합(빛의혼합) : rgb컬러모드
+> -가산혼합(빛의혼합) : rgb컬러모드
   
 > 표현할 수 있는 색의 개수
 > 1byte = 8bit = 256개 (0~255)
