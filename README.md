@@ -298,8 +298,8 @@ https://freebiesbug.com/psd-freebies/website-template/
 
 >id, class naming, 변수/ 함수 / 클래스 namine, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
 >표기방식을 사용하는 이유
-> -naming할때 두단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
-> -단어의 시작부분에 첫글자를 대문자로 변경, 특수기호를 사용
+> - naming할때 두단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
+> - 단어의 시작부분에 첫글자를 대문자로 변경, 특수기호를 사용
 >표기방식 종류  
 >snake case : gnb_depth1  뱀방식> 파일/폴더
 >kebab case : gnb-depth1  하이픈으로 연속연결> ID/CLASS
@@ -314,8 +314,9 @@ https://freebiesbug.com/psd-freebies/website-template/
 > html element 모두 각각 id,class attibute를 사용해서 이름을 지정해줌
 
 ### web color
+  
 > color mode
-> -가산혼합(빛의혼합) : rgb컬러모드
+> - 가산혼합(빛의혼합) : rgb컬러모드
   
 > 표현할 수 있는 색의 개수
 > 1byte = 8bit = 256개 (0~255)
@@ -360,14 +361,14 @@ color:rgba(42,189,81,0.2);
   
 # font css
 - font-family : "times new roman",times,serif
-  -순서대로 대체 폰트를 찾음
-  -sans-serif, serif,monospace,cursive,fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
-  -웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
-  -대표적인 웹폰트 서비스 : 구글폰트, 눈누
-  -font-size
-  -font-style : italic
-  -font-weight : bold / 500
-   -폰트 굵기가 다양한 경우 숫자로 굵기 표현
+  - 순서대로 대체 폰트를 찾음
+  - sans-serif, serif,monospace,cursive,fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+  - 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+  - 대표적인 웹폰트 서비스 : 구글폰트, 눈누
+- font-size
+- font-style : italic
+- font-weight : bold / 500
+ -폰트 굵기가 다양한 경우 숫자로 굵기 표현
 
 ### box model
 > 구성요소
