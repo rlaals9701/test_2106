@@ -281,6 +281,10 @@ https://freebiesbug.com/psd-freebies/website-template/
 >id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용>백엔드 개발시 사용
 >
 >class는 주로css스타일 적용, javascript 인터렉션 적용시 사용>프론트엔드개발시 주로 사용
+>
+>id는 하나의 html element에 대해서 하나의 이름만 존재, html 문서내에서 고유해야함.
+>
+>class는 하나의 html element에 대해서 여러개의 이름을 지정할 수 있고, html 문서내에서 여러곳에서 공통 사용 가능
 
 ### css작성방법
 
@@ -302,3 +306,12 @@ https://freebiesbug.com/psd-freebies/website-template/
 >camel case : gnbDepth1  낙타>JAVASCRIPT의 변수/함수
 >pascal case : GnbDepth1 >javascript의 클래스
 >
+
+### oocss(object oriented css)
+
+> html element를 대상화시키는 과정에서 element하나하나를 모두 객체화 시키는 이론
+>
+> html element 모두 각각 id,class attibute를 사용해서 이름을 지정해줌
+>
+  
+  
