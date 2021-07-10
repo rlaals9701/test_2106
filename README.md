@@ -373,7 +373,7 @@ color:rgba(42,189,81,0.2);
 - font-size
 - font-style : italic
 - font-weight : bold / 500
- -폰트 굵기가 다양한 경우 숫자로 굵기 표현
+ - 폰트 굵기가 다양한 경우 숫자로 굵기 표현
 
 ### box model
 > 구성요소
