@@ -331,3 +331,45 @@ https://freebiesbug.com/psd-freebies/website-template/
 > 16진수(hex code) : #AAB521
 >
 > 10진수 : (255,255,255)
+  
+  
+>css 사용법
+  
+```
+color:#2abd51;
+color:rgb(42,189,81);
+color:rgba(42,189,81,0.2); 
+```
+>
+>투명도를 의미하는 용어
+> - transparent : 투명한
+> - alpha : 추가채널
+> - opacity : 불투명함
+  
+### text css  
+- color
+- text-align : left, center, right,justify
+- text-decoration : underline, line-through,overline, none
+- text-transform : uppercase, lowercase,capitalize
+- text-indent : 20px / -20px(내어쓰기)
+- letter-spacing : 2px / -2px
+- line-height: 20px / 1.8배수
+- word-spacing
+- white-space : nowrap (줄안바꿈)
+- text-shadow
+  
+# font css
+- font-family : "times new roman",times,serif
+  -순서대로 대체 폰트를 찾음
+  -sans-serif, serif,monospace,cursive,fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+  -웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+  -대표적인 웹폰트 서비스 : 구글폰트, 눈누
+  -font-size
+  -font-style : italic
+  -font-weight : bold / 500
+   -폰트 굵기가 다양한 경우 숫자로 굵기 표현
+
+  >
+>
+>
+>
