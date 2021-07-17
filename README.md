@@ -512,6 +512,11 @@ div{
   background-position:100px 200px;(앞:가로방향/뒤:세로방향)
 }
 ```
-  
-  
+>background-attachment
+> - 배경이미지를 고정
+>background 축약표현
+```
+background:#fff;
+background:url(image.jpg);
+```
   
