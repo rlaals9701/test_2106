@@ -390,6 +390,22 @@ color:rgba(42,189,81,0.2);
 >auto : 기본값
 >-block : 너비 : 부모요소를 기준으로 채워짐 / 높이 : 콘텐츠(자식요소)를 기준으로 맞춰짐
 >-line : 너비/높이 : 콘텐츠(자식요소)에 맞춰짐
+
+### padding
+>안쪽여백
+
+>padding-top
 >
+>padding-right
+>
+>padding-bottom
+>
+>padding-left
+>
+>padding : 10px 20px 30px 40px (top right bottom left)
+>padding : 10px 20px 30px(top right/left bottom)
+>padding : 10px 20px(top/bottom right/left)
+>padding : 10px (top/right/bottom/left)
 
-
+###margin
+>padding과 사용방법이 같음
