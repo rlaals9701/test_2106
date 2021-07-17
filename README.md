@@ -484,10 +484,10 @@ display:inline;
 ### 이미지 표현 방법
 
 > 콘텐츠로 표현
->-img 태그
+> - img 태그
 >
 >디자인 요소로 표현
->-background-image
+> - background-image
   
 ### background
 >background-color
@@ -496,11 +496,11 @@ display:inline;
 >
 >background-repeat
 >
->-repeat-x(가로만 반복)/repeat-y(세로만 반복)/ no-repeat(반복없음)
+> - repeat-x(가로만 반복)/repeat-y(세로만 반복)/ no-repeat(반복없음)
 >
 >background-position
->-left, center, right / top, center, bottom : 키워드
->-px 좌표 표시
+> - left, center, right / top, center, bottom : 키워드
+> - px 좌표 표시
 ```
 div{
   background-position:left top;(앞:가로방향/뒤:세로방향)
