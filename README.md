@@ -424,11 +424,89 @@ color:rgba(42,189,81,0.2);
 >border-bottom:1px solid red;
 >
 >border-lift:1px solid red;
+
+###가로배치
+※ inline 요소는 박스모델이 제대로 적용되지 않기 때문에 레잉아웃 구성요소로 사용하기 어렵다.
+※ block요소를 레이아웃 구성 요소로 사용함=> 세로배치는 기본구성
+  
+가로배치 기법
+-float
+-flex
+-grid
+
+###float
+>left,right값을 사용해서 가로배치
+>left,right는 부모요소를 기준으로 방향성을 표현
+>일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
+
+>float은 박스가 띄워지는 현상이 있기 때문에 인접해 있는 박스가 박스의 배치가 깨질수 있음
+>float박스를 부모요소로 감싸서 인접해있는 박스와 float박스를 감싸고 있는 부모요소와의 관계로 만들어줌
+>float박스를 감싸는 부모요소는 높이가 0이 될수 있기 때문에 그것을 clear 할수 있는 비어있는 자식요소를 넣어줌
+```
+html
+<div class="float-container">
+  <div class="float-box">text</div>
+  <div class="float-box">text</div>
+  <div class="clearfix"></div>
+</div>
+  
+css
+.float-box{
+  float:left;}
+.clearfix{
+  clear:both}
+```
+
+### display 속성
+>요소의 기본속성을 변형하지 않고 화면에 표시되는 속성을 변형
+>block, inline, inline-block
+```
+div{
+display:inline;
+}
+=>div : inline속성으로 화면에 표시
+```
+> inline-block : inline의 속성(한줄에 나란히 표시)과 block의 속성 (박스모델 적용)을 모두 표시
 >
+
+### 폼 요소
+> 웹페이지에서 사용자 입력을 받을 사용하는 요소
+```
+<input type="text">: 일반 텍스트
+<input type="passward">: 비밀번호
+
+<input type="button" value="확인">
+<button type=""button>확인</button>
+
+```
 >
+  
+### 이미지 표현 방법
+
+> 콘텐츠로 표현
+>-img 태그
 >
+>디자인 요소로 표현
+>-background-image
+  
+### background
+>background-color
 >
+>background-image
 >
+>background-repeat
+>
+>-repeat-x(가로만 반복)/repeat-y(세로만 반복)/ no-repeat(반복없음)
+>
+>background-position
+>-left, center, right / top, center, bottom : 키워드
+>-px 좌표 표시
+```
+div{
+  background-position:left top;(앞:가로방향/뒤:세로방향)
+  background-position:100px 200px;(앞:가로방향/뒤:세로방향)
+}
+```
   
   
   
