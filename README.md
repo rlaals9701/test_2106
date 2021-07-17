@@ -488,6 +488,11 @@ display:inline;
 >
 >디자인 요소로 표현
 > - background-image
+>IR(image replacement : 이미지대체) 기법
+
+> - html element에는 텍스트로 표시
+> - 화면(브라우저)에 표시할때는 이미지로 표현
+
   
 ### background
 >background-color
