@@ -553,6 +553,23 @@ background:url(image.jpg);
 
 ```
 
+## javascript
+  
+### dom
+  
+### event
+> 상황변화에 따라 발생되는 신호
 
+> event 발생
+> - event 감지 : 종류, 상황
+> - 감지한 event에 맞는 기능,동작 실행
 
+> event 종류
+> - mouse event: click, mouse over, mouse out
+> - keyboard event : key 입력
 
+> event 감지 함수
+> - javascript : addEventListener()
+> - jquery : on()
+> 함수 : 익명함수 정리
+  
