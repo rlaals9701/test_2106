@@ -407,14 +407,14 @@ color:rgba(42,189,81,0.2);
 >padding : 10px 20px(top/bottom right/left)
 >padding : 10px (top/right/bottom/left)
 
-###margin
+### margin
 >padding과 사용방법이 같음
 
 >margin collapse
 >-위아래 인접하게 배치된 박스의 사이여백이 둘중 큰쪽으로만 적용되어 표현되는 현상
 >-위아래 양쪽으로 margin을 적용하는 것보다 한쪽을 기준으로 적용하는 것이 더좋음
 
-###border
+### border
 >border:1px solid red;(=> 4방향 모두 적용)
 >
 >border-top:1px solid red;
@@ -425,7 +425,7 @@ color:rgba(42,189,81,0.2);
 >
 >border-lift:1px solid red;
 
-###가로배치
+### 가로배치
 ※ inline 요소는 박스모델이 제대로 적용되지 않기 때문에 레잉아웃 구성요소로 사용하기 어렵다.
 ※ block요소를 레이아웃 구성 요소로 사용함=> 세로배치는 기본구성
   
@@ -434,7 +434,7 @@ color:rgba(42,189,81,0.2);
 -flex
 -grid
 
-###float
+### float
 >left,right값을 사용해서 가로배치
 >left,right는 부모요소를 기준으로 방향성을 표현
 >일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
