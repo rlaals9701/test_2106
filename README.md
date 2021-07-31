@@ -554,9 +554,29 @@ background:url(image.jpg);
 ```
 
 ## javascript
+
+### object
+  
+> 동작, 기능의 대상 : 객체
+> 객체 : poroperty,method
+```
+// 객체 : car
+
+//property
+car.weigh = 300;
+
+// method
+car.atart();
+```
   
 ### dom
   
+> HTML Element를 대상화시켜 객체로 만든것 : DOM(document object model)
+>
+> javascript DOM : javascript에서 HTML element를 접근, 사용할 수 있도록 만든DOM
+>
+> JQuery DOM : Javascript DOm보다 더 사용이 쉽도록 JQuery에서 만든DOM
+
 ### event
 > 상황변화에 따라 발생되는 신호
 
